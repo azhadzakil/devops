@@ -1,0 +1,18 @@
+CREATE TABLE orders(
+order_id SMALLINT(4) unsigned not null auto_increment,
+occasion VARCHAR(20) not null,
+event_date date not null,
+event_time time not null,
+event_address VARCHAR(60) not null,
+location VARCHAR(20) not null,
+budget INT not null,
+num_pax INT not null,
+total INT not null,
+contact_person VARCHAR(20) not null,
+contact_number VARCHAR(20) not null,
+company VARCHAR(20) not null,
+email VARCHAR(20) not null,
+request VARCHAR(60) not null,
+promo VARCHAR(20) not null,
+PRIMARY KEY (order_id)
+);
